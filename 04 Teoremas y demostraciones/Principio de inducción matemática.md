@@ -5,12 +5,12 @@ asignatura:
   - ANA1
 tema: Lógica y demostraciones
 estado: borrador
-confianza: rojo
+confianza: verde
 repasar: true
-nivel_revision: 0
-ultima_revision:
+nivel_revision: 1
+ultima_revision: 2026-08-25
 fecha: 2026-08-20
-proxima_revision: 2026-08-21
+proxima_revision: 2026-08-28
 tags:
   - teorema
 ---

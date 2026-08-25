@@ -44,25 +44,29 @@ Así que P1 y P2 no se negocian. Del resto, manda tu autoevaluación.
 
 ## La cola
 
-- [ ] **P1 · Lenguaje matemático, conjuntos y demostraciones** — tema 1 de la guía (p. 11). Material: la guía no trae teoría, así que la parte de lógica y demostraciones sale de la lectura básica que ella misma recomienda — **Velleman, _How to Prove It_, caps. 1-3** o **Hammack, _Book of Proof_, partes I-II** (elegir uno como espina; el otro, segunda opinión). Para conjuntos y aplicaciones: **Fundamentos de Álgebra, UA1** (pp. 7-24): conjuntos y operaciones, relaciones de equivalencia, aplicaciones inyectivas, sobreyectivas y biyectivas, composición e inversa. Apoyo: Sominski, _Método de inducción matemática_, §1-4 (pp. 17-46), con soluciones desde la p. 52.
-  *Objetivo*: negar un enunciado con cuantificadores sin equivocarte, operar con conjuntos, y escribir una demostración directa, por contrarrecíproco y por inducción. **Prioridad máxima**: es lo más distintivo del grado, y pesa en Álgebra I, Análisis I y Geometría I a la vez.
-- [ ] **P2 · Números reales, valor absoluto y desigualdades** — tema 2 de la guía (p. 15). Material: Asapchi, TEMA II (intervalos, valor absoluto, entornos) · Korovkin, _Desigualdades_, cap. I §2-4 (pp. 12-25).
-  *Objetivo*: manejar el valor absoluto **como distancia**, resolver inecuaciones con módulo y acotar con las desigualdades de la media y de Bernoulli. Segunda prioridad de la guía.
-- [ ] **P3 · Álgebra elemental, aritmética y primeras estructuras** — tema 3 de la guía (p. 19). Material: Faddeev-Sominski, cap. 1 §1-4 (pp. 11-22), complejos, con indicaciones y resoluciones · **Fundamentos de Álgebra, UA3** (pp. 33-54): divisibilidad, primos, aritmética modular, los anillos $\mathbb{Z}_n$ y los cuerpos $\mathbb{Z}_p$.
-  *Objetivo*: manipulación algebraica con soltura, operar con complejos en las tres formas y **ejemplificar un anillo y un cuerpo con casos concretos**. Esto último es el RA.8 de Álgebra I, que la UA3 resuelve con ejemplos en lugar de con teoría abstracta.
-- [ ] **P4 · Funciones, gráficas y trigonometría** — tema 4 de la guía (p. 23). Material: Asapchi, TEMA II (dominio, rango, funciones notables) y TEMA VI (estudio de curvas) · **Fundamentos de Cálculo, UA1.1** (pp. 7-13), funciones reales.
-  *Objetivo*: dominio, simetrías y asíntotas de las funciones elementales, dibujarlas sin tabla de valores, y trigonometría **en radianes**. Cuenta para Análisis I, Geometría I y Numérico.
-- [ ] **P5 · Vectores, geometría analítica y matrices** — tema 5 de la guía (p. 27). Material: Asapchi, TEMA I (coordenadas, recta, distancias) · **Fundamentos de Álgebra, UA4** (pp. 55-80): sistemas de ecuaciones lineales, matrices y discusión de sistemas · Proskuriakov, §1 determinantes de 2.º y 3.er orden (pp. 9-14), para practicar.
-  *Objetivo*: producto escalar, ortogonalidad, resolver sistemas por Gauss e interpretar la solución geométricamente. Es el bloque que la guía señala como transversal a **Álgebra I, Geometría I y Análisis II**.
-- [ ] **P6 · Límites, continuidad y cálculo diferencial** — tema 6 de la guía (p. 31). Material: Asapchi, TEMAS III, IV y V · **Fundamentos de Cálculo, UA1.2 y UA1.3** (pp. 14-30): límites, continuidad en un punto, teoremas de continuidad, derivadas y teoremas de derivación.
-  *Objetivo*: automatizar límites y derivadas, y llegar con un primer contacto a la definición $\varepsilon$-$\delta$ y a los teoremas del valor medio.
-- [ ] **P7 · Integral, sucesiones y series** — tema 7 de la guía (p. 35). Material: Asapchi, TEMA XIII (integración indefinida) · **Fundamentos de Cálculo, UA2** (pp. 43-60): integral de Riemann, propiedades, primitivas inmediatas y métodos de integración · Demidovich, cap. I §2 (teoría de las sucesiones, p. 19).
-  *Objetivo*: integrales inmediatas y por sustitución, y afinar la intuición de convergencia: sucesión acotada, monótona y serie geométrica. La guía de nivelación lo recomienda como preparación; su alcance en Análisis I sigue provisional hasta la primera clase.
-- [ ] **P8 · MATLAB** — tema 9 de la guía (p. 43). Material: **MATLAB Onramp**, tutorial gratuito de MathWorks · **Fundamentos de Cálculo, UA1.4** (cálculo simbólico, p. 31) y **UA1.5** (programación de funciones, p. 37) · **Fundamentos de Álgebra**, apéndice de MATLAB para álgebra lineal (p. 103).
-  *Objetivo*: moverte por el entorno sin fricción y haber escrito ya una función propia. La guía llama a Onramp «probablemente el recurso de nivelación más útil» de Numérico, y las tres secciones de las guías VIU lo aterrizan en lo que pide la asignatura. Déjalo para las últimas semanas.
+> [!note] Decisión (2026-08-25)
+> Cola reordenada tras dos días de datos. Lógica: baseline conseguido (negar con cuantificadores, contrarrecíproco, inducción escrita con rigor); no consume más sesiones propias y se sigue entrenando dentro de los otros bloques. La prioridad pasa al cálculo: cinco años sin límites ni derivadas, integrales desde el instituto. **Las sesiones son para hacer**; la lectura (Hammack caps. 4, 5, 6, 9 y 10) va por la noche y no computa. P3 queda fuera y P4 se disuelve en P6a.
+
+Orden y peso orientativo para las 48 sesiones que quedan hasta el 12 de octubre. Cada sesión de cálculo: unos 10 minutos de recordatorio guiado de la técnica del día y 20 de ejercicios cortos con corrección inmediata.
+
+- [x] **P1 · Lenguaje matemático, conjuntos y demostraciones** — tema 1 de la guía (p. 11). Cerrado como baseline el 2026-08-25: [[03 Conceptos/Implicación lógica|Implicación lógica]], [[04 Teoremas y demostraciones/Principio de inducción matemática|Principio de inducción matemática]], [[05 Problemas/ALG1 - T00 - P02 - Suma de los primeros n naturales|P02]]. Lectura nocturna: **Hammack, _Book of Proof_, caps. 4, 5, 6, 9 y 10** (el 3 es combinatoria: fuera). Conjuntos y aplicaciones (**Fundamentos de Álgebra, UA1**, pp. 7-24) se cubren cuando aparezcan en P5 y P6b. Apoyo: Sominski, §1-4.
+- [ ] **P2 · Números reales, valor absoluto y desigualdades** — 1 semana. Tema 2 de la guía (p. 15). Material: Asapchi, TEMA II (intervalos, valor absoluto, entornos) · Korovkin, _Desigualdades_, cap. I §2-4 (pp. 12-25).
+  *Objetivo*: manejar el valor absoluto **como distancia**, resolver inecuaciones con módulo y acotar con las desigualdades de la media y de Bernoulli. No es lógica: es la base del ε-δ de P6b y de Análisis I desde la primera clase.
+- [ ] **P6a · Límites y derivadas, destreza** — 2 semanas. Tema 6 de la guía (p. 31). Material: Asapchi, TEMAS III, IV y V · **Fundamentos de Cálculo, UA1.2 y UA1.3** (pp. 14-30). Lo de P4 (dominio, asíntotas, funciones elementales sin tabla de valores, trigonometría **en radianes**; Asapchi TEMA II y VI, **Fundamentos de Cálculo, UA1.1**) entra aquí a demanda, cuando un límite o una derivada lo pida.
+  *Objetivo*: volumen. 10-15 ejercicios cortos por sesión con corrección inmediata, subiendo dificultad al encadenar. Automatizar límites y derivadas.
+- [ ] **P6b · ε-δ y teoremas de continuidad y derivación** — 1 semana. Mismo material, UA1.2 y UA1.3.
+  *Objetivo*: probar un límite con ε-δ, enunciar con precisión continuidad en un punto, Bolzano y valor medio. Aquí vuelve la demostración cuidada, sobre objetos de cálculo.
+- [ ] **P7 · Integral, sucesiones y series** — 1,5 semanas. Tema 7 de la guía (p. 35). Material: Asapchi, TEMA XIII (integración indefinida) · **Fundamentos de Cálculo, UA2** (pp. 43-60) · Demidovich, cap. I §2 (sucesiones, p. 19).
+  *Objetivo*: empieza en cero. Inmediatas → sustitución → partes. Sucesiones: solo intuición de convergencia (acotada, monótona, geométrica). Su alcance en Análisis I sigue provisional hasta la primera clase.
+- [ ] **P5 · Vectores, geometría analítica y matrices** — 1 semana. Tema 5 de la guía (p. 27). Material: Asapchi, TEMA I (coordenadas, recta, distancias) · **Fundamentos de Álgebra, UA4** (pp. 55-80): sistemas de ecuaciones lineales, matrices y discusión de sistemas · Proskuriakov, §1 determinantes de 2.º y 3.er orden (pp. 9-14), para practicar.
+  *Objetivo*: producto escalar, ortogonalidad, resolver sistemas por Gauss e interpretar la solución geométricamente. Transversal a **Álgebra I, Geometría I y Análisis II**: lo único de álgebra que no se negocia.
+- [ ] **P8 · MATLAB** — última media semana. Tema 9 de la guía (p. 43). Material: **MATLAB Onramp**, tutorial gratuito de MathWorks · **Fundamentos de Cálculo, UA1.4** (cálculo simbólico, p. 31) y **UA1.5** (programación de funciones, p. 37) · **Fundamentos de Álgebra**, apéndice de MATLAB para álgebra lineal (p. 103).
+  *Objetivo*: moverte por el entorno sin fricción y haber escrito ya una función propia.
+
+**Fuera de la cola**: **P3** (álgebra elemental, complejos, $\mathbb{Z}_n$): fundamentos previos declarados, y Álgebra I lo da en el curso. **P4** no desaparece: se hace dentro de P6a a demanda.
 
 > [!tip] Si vas justo de tiempo
-> P1 y P2 completos, P5 a medias, y P8 la última semana. Con eso llegas bien. Los demás bloques son los que tu autoevaluación diga.
+> P2 y P6a completos, P7 hasta sustitución, P5 a medias y P8 la última semana. Lo que no llegue de P6b y P7 lo da Análisis I en octubre; lo que no llegue de P2 y P6a, no.
 
 ## Las dos guías de Fundamentos
 
