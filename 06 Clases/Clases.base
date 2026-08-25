@@ -1,0 +1,37 @@
+filters:
+  and:
+    - tipo == "clase"
+    - not:
+        - 'file.inFolder("90 Plantillas")'
+properties:
+  file.name:
+    displayName: Clase
+  asignatura:
+    displayName: Asignatura
+  tema:
+    displayName: Tema
+  fecha:
+    displayName: Fecha
+  estado:
+    displayName: Estado
+views:
+  - type: table
+    name: Por vaciar
+    filters:
+      and:
+        - estado == "capturada"
+    order:
+      - file.name
+      - asignatura
+      - tema
+      - fecha
+  - type: table
+    name: Todas
+    groupBy:
+      property: asignatura
+      direction: ASC
+    order:
+      - file.name
+      - tema
+      - fecha
+      - estado

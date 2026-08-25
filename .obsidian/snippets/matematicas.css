@@ -1,0 +1,152 @@
+/* =====================================================================
+   Matemáticas — estilo del vault
+   Un solo sistema de color en todo el vault (callouts, etiquetas,
+   carpetas y grafo):
+     azul     #3B82F6  conceptos / definiciones
+     violeta  #8B5CF6  teoremas y resultados
+     pizarra  #64748B  demostraciones / diario
+     naranja  #F97316  problemas
+     teal     #14B8A6  clases / estrategia
+     verde    #22C55E  ejemplos
+     rosa     #F43F5E  contraejemplos
+     ámbar    #F59E0B  intuición / revisiones
+     cian     #06B6D4  pistas / recursos
+     rojo     #EF4444  errores
+   ===================================================================== */
+
+/* ------------------------- Tipografía académica ---------------------- */
+
+body {
+  --font-serif: "New York", "Iowan Old Style", "Palatino", Charter, Georgia, serif;
+}
+
+.markdown-rendered h1,
+.markdown-rendered h2,
+.markdown-rendered h3,
+.markdown-rendered h4,
+.markdown-rendered h5,
+.markdown-rendered h6,
+.markdown-source-view.mod-cm6 .cm-header,
+.inline-title {
+  font-family: var(--font-serif);
+}
+
+.markdown-rendered h2,
+.markdown-source-view.mod-cm6 .HyperMD-header-2 {
+  padding-bottom: 0.15em;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.markdown-rendered thead th {
+  font-family: var(--font-serif);
+}
+
+/* --------------- Callouts: entornos matemáticos tipo LaTeX ----------- */
+
+.callout[data-callout="definicion"]    { --callout-color: 59, 130, 246;  --callout-icon: lucide-book-open; }
+.callout[data-callout="teorema"],
+.callout[data-callout="lema"],
+.callout[data-callout="proposicion"],
+.callout[data-callout="corolario"]     { --callout-color: 139, 92, 246;  --callout-icon: lucide-sigma; }
+.callout[data-callout="demostracion"]  { --callout-color: 100, 116, 139; --callout-icon: lucide-feather; }
+.callout[data-callout="ejemplo"]       { --callout-color: 34, 197, 94;   --callout-icon: lucide-check-circle; }
+.callout[data-callout="contraejemplo"] { --callout-color: 244, 63, 94;   --callout-icon: lucide-x-circle; }
+.callout[data-callout="intuicion"]     { --callout-color: 245, 158, 11;  --callout-icon: lucide-lightbulb; }
+.callout[data-callout="estrategia"]    { --callout-color: 20, 184, 166;  --callout-icon: lucide-map; }
+.callout[data-callout="pista"]         { --callout-color: 6, 182, 212;   --callout-icon: lucide-compass; }
+.callout[data-callout="problema"]      { --callout-color: 249, 115, 22;  --callout-icon: lucide-target; }
+.callout[data-callout="error"]         { --callout-color: 239, 68, 68;   --callout-icon: lucide-bug; }
+
+/* Aspecto de entorno impreso: marco fino, lomo de color, fondo suave */
+.callout {
+  border: 1px solid rgba(var(--callout-color), 0.25);
+  border-left: 4px solid rgb(var(--callout-color));
+  border-radius: 6px;
+  background-color: rgba(var(--callout-color), 0.06);
+}
+
+.callout-title-inner {
+  font-family: var(--font-serif);
+  font-weight: 600;
+}
+
+/* Fin de demostración: ∎ automático */
+.callout[data-callout="demostracion"] .callout-content::after {
+  content: "\220E";
+  display: block;
+  text-align: right;
+  margin-top: 0.25em;
+  opacity: 0.55;
+}
+
+/* ------------------------ Etiquetas como píldoras -------------------- */
+
+body {
+  --tag-radius: 999px;
+  --tag-border-width: 1px;
+}
+
+a.tag[href="#concepto"], .cm-tag-concepto {
+  color: rgb(59, 130, 246) !important;
+  background-color: rgba(59, 130, 246, 0.12);
+  border-color: rgba(59, 130, 246, 0.3);
+}
+a.tag[href="#teorema"], .cm-tag-teorema {
+  color: rgb(139, 92, 246) !important;
+  background-color: rgba(139, 92, 246, 0.12);
+  border-color: rgba(139, 92, 246, 0.3);
+}
+a.tag[href="#problema"], .cm-tag-problema {
+  color: rgb(249, 115, 22) !important;
+  background-color: rgba(249, 115, 22, 0.12);
+  border-color: rgba(249, 115, 22, 0.3);
+}
+a.tag[href="#clase"], .cm-tag-clase {
+  color: rgb(20, 184, 166) !important;
+  background-color: rgba(20, 184, 166, 0.12);
+  border-color: rgba(20, 184, 166, 0.3);
+}
+a.tag[href="#revision"], .cm-tag-revision {
+  color: rgb(245, 158, 11) !important;
+  background-color: rgba(245, 158, 11, 0.12);
+  border-color: rgba(245, 158, 11, 0.3);
+}
+a.tag[href="#diario"], .cm-tag-diario {
+  color: rgb(100, 116, 139) !important;
+  background-color: rgba(100, 116, 139, 0.12);
+  border-color: rgba(100, 116, 139, 0.3);
+}
+a.tag[href="#numerico"], .cm-tag-numerico {
+  color: rgb(6, 182, 212) !important;
+  background-color: rgba(6, 182, 212, 0.12);
+  border-color: rgba(6, 182, 212, 0.3);
+}
+
+/* ------------------ Explorador: carpetas con su color ---------------- */
+
+.nav-folder-title[data-path="02 Asignaturas"]              { color: #e11d48; }
+.nav-folder-title[data-path="03 Conceptos"]                { color: #3b82f6; }
+.nav-folder-title[data-path="04 Teoremas y demostraciones"] { color: #8b5cf6; }
+.nav-folder-title[data-path="05 Problemas"]                { color: #f97316; }
+.nav-folder-title[data-path="06 Clases"]                   { color: #14b8a6; }
+.nav-folder-title[data-path="07 Revisiones"]               { color: #f59e0b; }
+.nav-folder-title[data-path="08 Recursos"]                 { color: #06b6d4; }
+.nav-folder-title[data-path="09 Diario"]                   { color: #64748b; }
+
+/* --------------------------- Panel de inicio ------------------------- */
+
+.dashboard .metadata-container {
+  display: none;
+}
+
+.dashboard .inline-title {
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+/* ------------------------------ Detalles ----------------------------- */
+
+/* Tareas completadas, atenuadas */
+.markdown-rendered .task-list-item.is-checked {
+  color: var(--text-faint);
+}

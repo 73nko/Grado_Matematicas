@@ -1,0 +1,6 @@
+{
+  "types": {
+    "fecha": "date",
+    "proxima_revision": "date"
+  }
+}

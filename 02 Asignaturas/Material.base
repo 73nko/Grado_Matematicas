@@ -1,0 +1,84 @@
+filters:
+  and:
+    - 'list(asignatura).contains(this.codigo)'
+    - not:
+        - 'file.inFolder("90 Plantillas")'
+properties:
+  file.name:
+    displayName: Nota
+  tema:
+    displayName: Tema
+  estado:
+    displayName: Estado
+  confianza:
+    displayName: Confianza
+  dificultad:
+    displayName: Dificultad
+  fecha:
+    displayName: Fecha
+  proxima_revision:
+    displayName: Próxima revisión
+views:
+  - type: table
+    name: Conceptos
+    filters:
+      and:
+        - tipo == "concepto"
+    order:
+      - file.name
+      - tema
+      - estado
+      - confianza
+      - proxima_revision
+  - type: table
+    name: Teoremas
+    filters:
+      and:
+        - tipo == "teorema"
+    order:
+      - file.name
+      - tema
+      - estado
+      - confianza
+      - proxima_revision
+  - type: table
+    name: Problemas
+    filters:
+      and:
+        - tipo == "problema"
+    order:
+      - file.name
+      - tema
+      - dificultad
+      - estado
+      - proxima_revision
+  - type: table
+    name: Clases
+    filters:
+      and:
+        - tipo == "clase"
+    order:
+      - file.name
+      - tema
+      - fecha
+      - estado
+  - type: table
+    name: Experimentos
+    filters:
+      and:
+        - tipo == "experimento_numerico"
+    order:
+      - file.name
+      - tema
+      - fecha
+      - estado
+  - type: table
+    name: Simulacros
+    filters:
+      and:
+        - tipo == "simulacro"
+    order:
+      - file.name
+      - fecha
+      - estado
+      - duracion_min

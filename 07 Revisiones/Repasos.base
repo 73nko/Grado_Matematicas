@@ -1,0 +1,129 @@
+filters:
+  and:
+    - not:
+        - 'file.inFolder("90 Plantillas")'
+    - or:
+        - tipo == "concepto"
+        - tipo == "teorema"
+        - tipo == "problema"
+formulas:
+  dias: if(!proxima_revision.isEmpty(), (date(proxima_revision) - today()).days, "")
+properties:
+  file.name:
+    displayName: Nota
+  proxima_revision:
+    displayName: Próxima revisión
+  formula.dias:
+    displayName: Días
+  asignatura:
+    displayName: Asignatura
+  confianza:
+    displayName: Confianza
+  tipo:
+    displayName: Tipo
+  estado:
+    displayName: Estado
+  repasar:
+    displayName: Repasar
+  nivel_revision:
+    displayName: Nivel
+  ultima_revision:
+    displayName: Última revisión
+views:
+  - type: table
+    name: Para hoy
+    filters:
+      and:
+        - or:
+            - and:
+                - or:
+                    - tipo == "concepto"
+                    - tipo == "teorema"
+                - repasar == true
+                - estado != "dominado"
+            - and:
+                - tipo == "problema"
+                - repasar == true
+                - estado == "repetir"
+        - "!proxima_revision.isEmpty()"
+        - date(proxima_revision) <= today()
+    order:
+      - file.name
+      - tipo
+      - asignatura
+      - confianza
+      - repasar
+      - nivel_revision
+      - ultima_revision
+      - proxima_revision
+  - type: table
+    name: Próximos 7 días
+    filters:
+      and:
+        - or:
+            - and:
+                - or:
+                    - tipo == "concepto"
+                    - tipo == "teorema"
+                - repasar == true
+                - estado != "dominado"
+            - and:
+                - tipo == "problema"
+                - repasar == true
+                - estado == "repetir"
+        - "!proxima_revision.isEmpty()"
+        - date(proxima_revision) > today()
+        - date(proxima_revision) <= today() + "7d"
+    order:
+      - file.name
+      - tipo
+      - asignatura
+      - confianza
+      - nivel_revision
+      - ultima_revision
+      - proxima_revision
+      - formula.dias
+  - type: table
+    name: En rojo
+    filters:
+      and:
+        - or:
+            - tipo == "concepto"
+            - tipo == "teorema"
+        - repasar == true
+        - confianza == "rojo"
+        - estado != "dominado"
+    groupBy:
+      property: asignatura
+      direction: ASC
+    order:
+      - file.name
+      - tipo
+      - estado
+      - nivel_revision
+      - ultima_revision
+      - proxima_revision
+  - type: table
+    name: Sin programar
+    filters:
+      and:
+        - or:
+            - and:
+                - or:
+                    - tipo == "concepto"
+                    - tipo == "teorema"
+                - repasar == true
+                - estado != "dominado"
+            - and:
+                - tipo == "problema"
+                - repasar == true
+                - estado == "repetir"
+        - proxima_revision.isEmpty()
+    order:
+      - file.name
+      - tipo
+      - asignatura
+      - estado
+      - repasar
+      - nivel_revision
+      - ultima_revision

@@ -1,0 +1,31 @@
+filters:
+  and:
+    - tipo == "asignatura"
+    - not:
+        - 'file.inFolder("90 Plantillas")'
+properties:
+  file.name:
+    displayName: Asignatura
+  codigo:
+    displayName: Código
+  cuatrimestre:
+    displayName: Cuatrimestre
+  examen_primera:
+    displayName: Primera convocatoria
+  examen_segunda:
+    displayName: Segunda convocatoria
+views:
+  - type: table
+    name: Primera convocatoria
+    order:
+      - file.name
+      - codigo
+      - cuatrimestre
+      - examen_primera
+  - type: table
+    name: Segunda convocatoria
+    order:
+      - file.name
+      - codigo
+      - cuatrimestre
+      - examen_segunda

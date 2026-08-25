@@ -1,0 +1,78 @@
+filters:
+  and:
+    - tipo == "problema"
+    - not:
+        - 'file.inFolder("90 Plantillas")'
+properties:
+  file.name:
+    displayName: Problema
+  asignatura:
+    displayName: Asignatura
+  tema:
+    displayName: Tema
+  dificultad:
+    displayName: Dificultad
+  estado:
+    displayName: Estado
+  proxima_revision:
+    displayName: Repetir el
+  repasar:
+    displayName: Repasar
+  nivel_revision:
+    displayName: Nivel
+  ultima_revision:
+    displayName: Última revisión
+views:
+  - type: table
+    name: Cola de trabajo
+    filters:
+      and:
+        - estado == "pendiente"
+    order:
+      - file.name
+      - asignatura
+      - tema
+      - dificultad
+  - type: table
+    name: En curso
+    filters:
+      and:
+        - estado == "en_curso"
+    order:
+      - file.name
+      - asignatura
+      - tema
+      - dificultad
+  - type: table
+    name: Repetir
+    filters:
+      and:
+        - estado == "repetir"
+    order:
+      - file.name
+      - asignatura
+      - tema
+      - repasar
+      - nivel_revision
+      - proxima_revision
+  - type: table
+    name: Resueltos con soltura
+    filters:
+      and:
+        - estado == "resuelto"
+    order:
+      - file.name
+      - asignatura
+      - tema
+      - dificultad
+  - type: table
+    name: Todos
+    groupBy:
+      property: asignatura
+      direction: ASC
+    order:
+      - file.name
+      - tema
+      - dificultad
+      - estado
+      - proxima_revision

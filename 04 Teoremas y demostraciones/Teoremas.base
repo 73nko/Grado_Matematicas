@@ -1,0 +1,59 @@
+filters:
+  and:
+    - tipo == "teorema"
+    - not:
+        - 'file.inFolder("90 Plantillas")'
+properties:
+  file.name:
+    displayName: Resultado
+  asignatura:
+    displayName: Asignatura
+  tema:
+    displayName: Tema
+  estado:
+    displayName: Estado
+  confianza:
+    displayName: Confianza
+  proxima_revision:
+    displayName: Próxima revisión
+  repasar:
+    displayName: Repasar
+  nivel_revision:
+    displayName: Nivel
+  ultima_revision:
+    displayName: Última revisión
+views:
+  - type: table
+    name: Por asignatura
+    groupBy:
+      property: asignatura
+      direction: ASC
+    order:
+      - file.name
+      - tema
+      - estado
+      - confianza
+      - nivel_revision
+      - ultima_revision
+      - proxima_revision
+  - type: table
+    name: Pendientes de dominar
+    filters:
+      and:
+        - estado != "dominado"
+    order:
+      - file.name
+      - asignatura
+      - estado
+      - confianza
+      - proxima_revision
+  - type: table
+    name: Semáforo
+    groupBy:
+      property: confianza
+      direction: ASC
+    order:
+      - file.name
+      - asignatura
+      - estado
+      - proxima_revision

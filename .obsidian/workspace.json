@@ -1,0 +1,242 @@
+{
+  "main": {
+    "id": "2f58af6a4d66fe17",
+    "type": "split",
+    "children": [
+      {
+        "id": "f84acba743a592c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa40cb30b1dfe4c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "09 Diario/2026-08-24 - Sesión de estudio.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-08-24 - Sesión de estudio"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "581779bdfb68d3ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d55bec315e64364",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22750b33cf62259f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d983379e55a76477",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2e33002ce8dc324c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0d3da900516b3901",
+    "type": "split",
+    "children": [
+      {
+        "id": "79df744baa74888b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "309a654b74cc73e0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00 Inicio/Inicio.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "4a5a1640208abc43",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00 Inicio/Inicio.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "ea47e226a866aab7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f430992adc44b923",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "03fa3ee0edad8583",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00 Inicio/Inicio.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "df8ad6881b596425",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-spaced-repetition:Review flashcards": false
+    }
+  },
+  "active": "aa40cb30b1dfe4c7",
+  "lastOpenFiles": [
+    "09 Diario/2026-08-24 - Sesión de estudio.md",
+    "08 Recursos/Guia de nivelacion Matematicas.pdf",
+    "Sesión de Estudio 24 Agosto.md",
+    "08 Recursos/Fundamentos de Álgebra.pdf",
+    "02 Asignaturas/1C - Álgebra I/01GMAT Álgebra I - GUIA DE ASIGNATURA_0.pdf",
+    "01 Grado/Reto de preparación.md",
+    "09 Diario/Diario de estudio.md",
+    "07 Revisiones/2026-W34 - Revisión semanal piloto.md",
+    "07 Revisiones/Revisiones.md",
+    "03 Conceptos/Implicación lógica.md",
+    "03 Conceptos/Índice de conceptos.md",
+    "03 Conceptos/Conceptos.base",
+    "01 Grado/Trabajo paralelo.md",
+    "02 Asignaturas/2C - Geometría I/Geometría I.md",
+    "02 Asignaturas/2C - Análisis II/Análisis II.md",
+    "02 Asignaturas/2C - Análisis II/07GMAT Análisis II - GUÍA DE ASIGNATURA_0.pdf",
+    "02 Asignaturas/1C - Cálculo Numérico/Cálculo Numérico.md",
+    "02 Asignaturas/1C - Análisis I/Análisis I.md",
+    "02 Asignaturas/1C - Álgebra I/Álgebra I.md",
+    "00 Inicio/Inicio.md",
+    "02 Asignaturas/1C - Cálculo Numérico/04GMAT Numérico I - GUIA DE ASIGNATURA_0.pdf",
+    "05 Problemas/TEST - Problema en repetición.md",
+    "06 Clases/2026-08-20 - ALG1 - Lógica y demostraciones.md",
+    "05 Problemas/ALG1 - T00 - P01 - Negar una implicación.md",
+    "04 Teoremas y demostraciones/Principio de inducción matemática.md",
+    "01 Grado/Asignaturas.base",
+    "02 Asignaturas/2C - Geometría I/06GMAT Geometría I - GUIA DE ASIGNATURA_0.pdf",
+    "04 Teoremas y demostraciones/Índice de teoremas y demostraciones.md",
+    "01 Grado/Calendario de examenes 2026-2027.pdf",
+    "01 Grado/Calendario academico 2026-2027.pdf",
+    "08 Recursos/Recursos.md",
+    "00 Inicio/Sistema de estudio.md",
+    "01 Grado/Curso 2026-2027.md",
+    "00 Inicio/Manual de uso.md",
+    "README.md"
+  ]
+}
