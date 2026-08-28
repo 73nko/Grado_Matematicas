@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c23139f98ea727f1",
+        "id": "016dd63187d3620d",
         "type": "tabs",
         "children": [
           {
-            "id": "3199e0d20e3861e4",
+            "id": "6f872c3c6f55da7d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -95,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Inicio/Inicio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,8 +175,7 @@
               "title": "review-queue-list-view"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -197,15 +195,16 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "3199e0d20e3861e4",
+  "active": "6f872c3c6f55da7d",
   "lastOpenFiles": [
+    "08 Recursos/Guia de nivelacion Matematicas.pdf",
+    "05 Problemas/ANA1 - T00 - P01 - Acotar x²-4 con módulo.md",
     "04 Teoremas y demostraciones/Principio de inducción matemática.md",
     "03 Conceptos/Índice de conceptos.md",
     "03 Conceptos/Implicación lógica.md",
     "09 Diario/2026-08-25 - Sesión de estudio.md",
     "05 Problemas/ALG1 - T00 - P02 - Suma de los primeros n naturales.md",
     "09 Diario/2026-08-24 - Sesión de estudio.md",
-    "08 Recursos/Guia de nivelacion Matematicas.pdf",
     "Sesión de Estudio 24 Agosto.md",
     "08 Recursos/Fundamentos de Álgebra.pdf",
     "02 Asignaturas/1C - Álgebra I/01GMAT Álgebra I - GUIA DE ASIGNATURA_0.pdf",
@@ -232,8 +231,6 @@
     "01 Grado/Calendario de examenes 2026-2027.pdf",
     "01 Grado/Calendario academico 2026-2027.pdf",
     "08 Recursos/Recursos.md",
-    "00 Inicio/Sistema de estudio.md",
-    "01 Grado/Curso 2026-2027.md",
-    "00 Inicio/Manual de uso.md"
+    "00 Inicio/Sistema de estudio.md"
   ]
 }

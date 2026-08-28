@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d0be1f5f56de33bf",
+        "id": "b627d76cfa216f9f",
         "type": "tabs",
         "children": [
           {
-            "id": "70dda49300057e9c",
+            "id": "ddf605d89f92bf8e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "08 Recursos/Guia de nivelacion Matematicas.pdf"
+                "file": "09 Diario/2026-08-26 - Sesión de estudio.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Guia de nivelacion Matematicas"
+              "icon": "lucide-file",
+              "title": "2026-08-26 - Sesión de estudio"
             }
           }
         ]
@@ -115,6 +117,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "09 Diario/2026-08-26 - Sesión de estudio.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -170,8 +173,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "70dda49300057e9c",
+  "active": "ddf605d89f92bf8e",
   "lastOpenFiles": [
+    "08 Recursos/Guia de nivelacion Matematicas.pdf",
+    "mates_ratos_muertos_200_anki.tsv",
+    "08 Recursos/Recursos.md",
+    "09 Diario/2026-08-26 - Sesión de estudio.md",
+    "09 Diario/2026-08-25 - Sesión de estudio.md",
+    "03 Conceptos/Valor absoluto.md",
+    "05 Problemas/ANA1 - T00 - P01 - Acotar x²-4 con módulo.md",
+    "05 Problemas/ALG1 - T00 - P02 - Suma de los primeros n naturales.md",
     "08 Recursos/Fundamentos de Álgebra.pdf",
     "Sin título.canvas"
   ]
