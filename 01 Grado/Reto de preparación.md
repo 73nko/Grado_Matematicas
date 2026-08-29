@@ -42,6 +42,14 @@ Así que P1 y P2 no se negocian. Del resto, manda tu autoevaluación.
 - Registra la sesión en [[09 Diario/Diario de estudio|Diario de estudio]], dos minutos al cerrar.
 - La guía insiste, y tiene razón: «una hora de práctica real rinde mucho más que varias horas de lectura pasiva». Papel y lápiz, e intentar antes de mirar.
 
+## Fines de semana: una hora, dos mitades
+
+> [!note] Decisión (2026-08-29)
+> Sábado y domingo la sesión pasa de 30 a **60 minutos**, partidos en dos mitades fijas. Durante el curso se mantiene la estructura a **dos horas** (una por mitad).
+
+1. **30 min de repasos**: la cola de [[07 Revisiones/Repasos.base|Repasos]], lo más vencido primero. Si la cola se agota antes, el resto del tramo va a la cola de abajo.
+2. **30 min de caligrafía**: ejercicios que *deberían* ser triviales, repetidos hasta que salgan sin pensar. Es destreza pura, no comprensión: sin teoría, sin nota nueva, con corrección inmediata. Catálogo: descomposición factorial (binomios, trinomios, factor común, diferencia de cuadrados), operaciones con fracciones algebraicas, exponenciales y logaritmos, identidades trigonométricas y teoremas del seno y del coseno, límites por L'Hôpital, derivadas encadenadas. **Solo entran técnicas ya repasadas en la cola**: L'Hôpital y derivadas se incorporan cuando P6a las haya tocado, no antes. Fuente principal: Baldor, _Álgebra_, más el capítulo de ejercicios del bloque en curso.
+
 ## La cola
 
 > [!note] Decisión (2026-08-25)
@@ -50,7 +58,7 @@ Así que P1 y P2 no se negocian. Del resto, manda tu autoevaluación.
 Orden y peso orientativo para las 48 sesiones que quedan hasta el 12 de octubre. Cada sesión de cálculo: unos 10 minutos de recordatorio guiado de la técnica del día y 20 de ejercicios cortos con corrección inmediata.
 
 - [x] **P1 · Lenguaje matemático, conjuntos y demostraciones** — tema 1 de la guía (p. 11). Cerrado como baseline el 2026-08-25: [[03 Conceptos/Implicación lógica|Implicación lógica]], [[04 Teoremas y demostraciones/Principio de inducción matemática|Principio de inducción matemática]], [[05 Problemas/ALG1 - T00 - P02 - Suma de los primeros n naturales|P02]]. Lectura nocturna: **Hammack, _Book of Proof_, caps. 4, 5, 6, 9 y 10** (el 3 es combinatoria: fuera). Conjuntos y aplicaciones (**Fundamentos de Álgebra, UA1**, pp. 7-24) se cubren cuando aparezcan en P5 y P6b. Apoyo: Sominski, §1-4.
-- [ ] **P2 · Números reales, valor absoluto y desigualdades** — 1 semana. Tema 2 de la guía (p. 15). Material: Asapchi, TEMA II (intervalos, valor absoluto, entornos) · Korovkin, _Desigualdades_, cap. I §2-4 (pp. 12-25).
+- [x] **P2 · Números reales, valor absoluto y desigualdades** — 1 semana. Tema 2 de la guía (p. 15). Material: Asapchi, TEMA II (intervalos, valor absoluto, entornos) · Korovkin, _Desigualdades_, cap. I §2-4 (pp. 12-25). Cerrado el 2026-08-27: [[03 Conceptos/Valor absoluto|Valor absoluto]], [[05 Problemas/ANA1 - T00 - P01 - Acotar x²-4 con módulo|P01]], AM-GM y Bernoulli vía Korovkin.
   *Objetivo*: manejar el valor absoluto **como distancia**, resolver inecuaciones con módulo y acotar con las desigualdades de la media y de Bernoulli. No es lógica: es la base del ε-δ de P6b y de Análisis I desde la primera clase.
 - [ ] **P6a · Límites y derivadas, destreza** — 2 semanas. Tema 6 de la guía (p. 31). Material: Asapchi, TEMAS III, IV y V · **Fundamentos de Cálculo, UA1.2 y UA1.3** (pp. 14-30). Lo de P4 (dominio, asíntotas, funciones elementales sin tabla de valores, trigonometría **en radianes**; Asapchi TEMA II y VI, **Fundamentos de Cálculo, UA1.1**) entra aquí a demanda, cuando un límite o una derivada lo pida.
   *Objetivo*: volumen. 10-15 ejercicios cortos por sesión con corrección inmediata, subiendo dificultad al encadenar. Automatizar límites y derivadas.

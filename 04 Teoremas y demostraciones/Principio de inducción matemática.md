@@ -7,10 +7,10 @@ tema: Lógica y demostraciones
 estado: borrador
 confianza: verde
 repasar: true
-nivel_revision: 1
-ultima_revision: 2026-08-25
+nivel_revision: 2
+ultima_revision: 2026-08-29
 fecha: 2026-08-20
-proxima_revision: 2026-08-28
+proxima_revision: 2026-09-05
 tags:
   - teorema
 ---

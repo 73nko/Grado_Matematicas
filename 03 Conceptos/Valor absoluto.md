@@ -3,13 +3,13 @@ tipo: concepto
 asignatura:
   - ANA1
 tema: Números reales
-estado: borrador
+estado: en_progreso
 confianza: rojo
 repasar: true
-nivel_revision: 0
-ultima_revision:
+nivel_revision: 1
+ultima_revision: 2026-08-29
 fecha: 2026-08-26
-proxima_revision: 2026-08-27
+proxima_revision: 2026-09-01
 tags:
   - concepto
 ---
