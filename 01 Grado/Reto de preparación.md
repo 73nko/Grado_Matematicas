@@ -60,7 +60,25 @@ Orden y peso orientativo para las 48 sesiones que quedan hasta el 12 de octubre.
 - [x] **P1 · Lenguaje matemático, conjuntos y demostraciones** — tema 1 de la guía (p. 11). Cerrado como baseline el 2026-08-25: [[03 Conceptos/Implicación lógica|Implicación lógica]], [[04 Teoremas y demostraciones/Principio de inducción matemática|Principio de inducción matemática]], [[05 Problemas/ALG1 - T00 - P02 - Suma de los primeros n naturales|P02]]. Lectura nocturna: **Hammack, _Book of Proof_, caps. 4, 5, 6, 9 y 10** (el 3 es combinatoria: fuera). Conjuntos y aplicaciones (**Fundamentos de Álgebra, UA1**, pp. 7-24) se cubren cuando aparezcan en P5 y P6b. Apoyo: Sominski, §1-4.
 - [x] **P2 · Números reales, valor absoluto y desigualdades** — 1 semana. Tema 2 de la guía (p. 15). Material: Asapchi, TEMA II (intervalos, valor absoluto, entornos) · Korovkin, _Desigualdades_, cap. I §2-4 (pp. 12-25). Cerrado el 2026-08-27: [[03 Conceptos/Valor absoluto|Valor absoluto]], [[05 Problemas/ANA1 - T00 - P01 - Acotar x²-4 con módulo|P01]], AM-GM y Bernoulli vía Korovkin.
   *Objetivo*: manejar el valor absoluto **como distancia**, resolver inecuaciones con módulo y acotar con las desigualdades de la media y de Bernoulli. No es lógica: es la base del ε-δ de P6b y de Análisis I desde la primera clase.
-- [ ] **P6a · Límites y derivadas, destreza** — 2 semanas. Tema 6 de la guía (p. 31). Material: Asapchi, TEMAS III, IV y V · **Fundamentos de Cálculo, UA1.2 y UA1.3** (pp. 14-30). Lo de P4 (dominio, asíntotas, funciones elementales sin tabla de valores, trigonometría **en radianes**; Asapchi TEMA II y VI, **Fundamentos de Cálculo, UA1.1**) entra aquí a demanda, cuando un límite o una derivada lo pida.
+- [ ] **P4 · Trigonometría, semana intensiva** — del domingo 30-08 al domingo 06-09, unas 5 horas. Tema 4 de la guía. Material: **Pearson, _Geometría y trigonometría_**, caps. 2, 11-16 (y 17 si sobra). Los caps. 1, 3-10 (geometría plana y del espacio) quedan fuera.
+  *Objetivo*: círculo unidad, ángulos notables y reducción de cuadrante sin calculadora; gráficas de $A\sin(Bx+C)$ a mano; identidades básicas, suma, doble y mitad **demostradas y usadas**; ecuaciones trigonométricas con solución general; leyes de senos y cosenos. Es lo que P6a da por sabido para $\lim_{x\to 0}\frac{\sin x}{x}$ y para derivar $\sin$, $\cos$ y $\tan$.
+
+  > [!note] Decisión (2026-08-29)
+  > Sale del "a demanda" dentro de P6a y se hace entera y de golpe: Álex dominaba la trigonometría y ha olvidado las identidades; recuperarla en bloque es más barato que a trozos. Los repasos vencidos siguen mandando; la caligrafía del fin de semana es también trigonométrica esta semana.
+
+  | Día | Min | Capítulos | Sale de la sesión sabiendo |
+  |---|---|---|---|
+  | Dom 30 | 60 | 2 (radianes, sistema cíclico) · 11 · 12 | Convertir grados↔radianes; definir las seis razones en el plano; signos por cuadrante; reducir cualquier ángulo al primer cuadrante; tabla de 0°, 30°, 45°, 60°, 90° deducida de los triángulos, no memorizada |
+  | Lun 31 | 30 | 13 | Dibujar $\sin$, $\cos$, $\tan$ y leer amplitud, periodo y desfase de $y = A\sin(Bx + C)$; dominio y rango de $\sin^{-1}$, $\cos^{-1}$, $\tan^{-1}$ |
+  | Mar 1 | 30 | 14 §1: identidades básicas | *Antes, 5 min: repaso de Valor absoluto (vence hoy).* Pitagóricas, cociente y recíprocas; demostrar identidades transformando un solo miembro |
+  | Mié 2 | 30 | 14 §2: suma y diferencia | $\sin(\alpha \pm \beta)$, $\cos(\alpha \pm \beta)$, $\tan(\alpha \pm \beta)$ demostradas y aplicadas a ángulos no notables (75°, 15°) |
+  | Jue 3 | 30 | 14 §3: doble, mitad, producto↔suma | Deducir las de ángulo doble y mitad desde las de suma; las de producto a suma solo saber que existen y dónde están |
+  | Vie 4 | 30 | 14 §4: ecuaciones | Solución general con $k\in\mathbb{Z}$ y soluciones en $[0, 2\pi)$; ecuaciones que exigen una identidad previa |
+  | Sáb 5 | 60 | 15 · 16 | *30 min repasos: Implicación e Inducción (vencen hoy).* Resolver triángulos rectángulos y oblicuángulos: ley de senos (con el caso ambiguo) y ley de cosenos |
+  | Dom 6 | 60 | 16 (cierre) · 17 · tanda final | Ley de tangentes si cabe; forma polar de complejos y de Moivre como puente a Álgebra I. **Criterio de salida**: tanda mixta de 15 ejercicios de toda la semana, 10 seguidos sin fallo conceptual |
+
+  Formato de cada sesión, el de siempre: un tercio de recordatorio guiado y dos tercios de ejercicios del capítulo con corrección inmediata. Si un día se atasca, no se estira: se anota y se sigue, y el domingo 6 se recoge.
+- [ ] **P6a · Límites y derivadas, destreza** — 2 semanas. Tema 6 de la guía (p. 31). Material: Asapchi, TEMAS III, IV y V · **Fundamentos de Cálculo, UA1.2 y UA1.3** (pp. 14-30). Lo de P4 que no es trigonometría (dominio, asíntotas, funciones elementales sin tabla de valores; Asapchi TEMA II, **Fundamentos de Cálculo, UA1.1**) entra aquí a demanda, cuando un límite o una derivada lo pida; la trigonometría llega hecha de la semana intensiva.
   *Objetivo*: volumen. 10-15 ejercicios cortos por sesión con corrección inmediata, subiendo dificultad al encadenar. Automatizar límites y derivadas.
 - [ ] **P6b · ε-δ y teoremas de continuidad y derivación** — 1 semana. Mismo material, UA1.2 y UA1.3.
   *Objetivo*: probar un límite con ε-δ, enunciar con precisión continuidad en un punto, Bolzano y valor medio. Aquí vuelve la demostración cuidada, sobre objetos de cálculo.
@@ -71,7 +89,7 @@ Orden y peso orientativo para las 48 sesiones que quedan hasta el 12 de octubre.
 - [ ] **P8 · MATLAB** — última media semana. Tema 9 de la guía (p. 43). Material: **MATLAB Onramp**, tutorial gratuito de MathWorks · **Fundamentos de Cálculo, UA1.4** (cálculo simbólico, p. 31) y **UA1.5** (programación de funciones, p. 37) · **Fundamentos de Álgebra**, apéndice de MATLAB para álgebra lineal (p. 103).
   *Objetivo*: moverte por el entorno sin fricción y haber escrito ya una función propia.
 
-**Fuera de la cola**: **P3** (álgebra elemental, complejos, $\mathbb{Z}_n$): fundamentos previos declarados, y Álgebra I lo da en el curso. **P4** no desaparece: se hace dentro de P6a a demanda.
+**Fuera de la cola**: **P3** (álgebra elemental, complejos, $\mathbb{Z}_n$): fundamentos previos declarados, y Álgebra I lo da en el curso; lo mecánico del álgebra elemental se entrena en la caligrafía de los fines de semana. **P4** vuelve a la cola como semana intensiva de trigonometría (decisión del 2026-08-29); su parte de funciones elementales sigue dentro de P6a a demanda.
 
 > [!tip] Si vas justo de tiempo
 > P2 y P6a completos, P7 hasta sustitución, P5 a medias y P8 la última semana. Lo que no llegue de P6b y P7 lo da Análisis I en octubre; lo que no llegue de P2 y P6a, no.

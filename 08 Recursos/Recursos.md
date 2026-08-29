@@ -24,6 +24,8 @@ Registra para cada recurso: asignatura, capítulos útiles, nivel, propósito y 
 
 ### Pretemporada (agosto-octubre de 2026)
 
+- **_Geometría y trigonometría_** (Pearson) — libro de bachillerato, con solución a los ejercicios (p. 257) y tablas de valores. Nivel: rampa de entrada, por debajo de Asapchi. Uso: semana intensiva de trigonometría (P4, 30-08 → 06-09): caps. 2, 11-16, y 17 como puente a los complejos de Álgebra I. Los caps. 1 y 3-10 (geometría plana y del espacio) no entran.
+- **Baldor, _Álgebra_** — ejercicios mecánicos para la caligrafía de los fines de semana: descomposición factorial (hecho el 29-08), fracciones algebraicas, exponentes y radicales. No es material de estudio: es entrenamiento de destreza.
 - **Asapchi Sayegh, problemario de cálculo y geometría analítica** (UCAB) — rampa de entrada, un escalón por debajo de MIR. Cada tema abre con definiciones y fórmulas y trae problemas resueltos y respuestas. En la preparación se usan TEMA I en P5; TEMAS II-VI en P2, P4 y P6; y TEMA XIII en P7. Los TEMAS VII-XII quedan fuera de la pretemporada. No trae sucesiones ni álgebra lineal. Plan de uso y prioridad en [[01 Grado/Reto de preparación|Reto de preparación]].
 
 ### [[02 Asignaturas/1C - Álgebra I/Álgebra I|Álgebra I]]
