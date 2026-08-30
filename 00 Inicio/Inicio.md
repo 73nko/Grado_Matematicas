@@ -21,16 +21,20 @@ tags:
 
 ## Ahora
 
-- [ ] Avanzar el [[01 Grado/Reto de preparación|Reto de preparación]] — 30 min diarios desde el 24 de agosto
+> [!info] Estado actual — 30 de agosto de 2026
+> **Fase:** pretemporada. **Hoy:** descanso planificado. **Bloque activo preparado:** trigonometría, 31-08 → 06-09, 9 horas. **Siguiente sesión:** lunes 31, 60 minutos de radianes y circunferencia unidad. El [[01 Grado/Reto de preparación|Reto de preparación]] es la fuente canónica del calendario.
+
+- [ ] Completar el bloque activo de trigonometría y registrar cada sesión en el [[09 Diario/Diario de estudio|Diario de estudio]]
 - [x] Importar las guías docentes oficiales
 - [x] Completar fechas y sistema de evaluación en cada asignatura
-- [ ] Preparar la primera semana en [[01 Grado/Curso 2026-2027|Curso 2026-2027]]
-- [ ] Hacer una primera sesión diagnóstica de Álgebra I y Análisis I
+- [ ] Cerrar la consolidación general el 11 de octubre
+- [ ] Preparar la primera semana en [[01 Grado/Curso 2026-2027|Curso 2026-2027]] para el inicio oficial del 12 de octubre
 
 ## Planificación
 
 - [[01 Grado/Grado en Matemáticas|Grado en Matemáticas]]
 - [[01 Grado/Curso 2026-2027|Curso 2026-2027]]
+- [[01 Grado/Reto de preparación|Reto de preparación]]
 - [[01 Grado/Trabajo paralelo|Trabajo paralelo]]
 
 ## Primer cuatrimestre

@@ -33,4 +33,4 @@ Primera sesión de fin de semana con el formato nuevo del [[01 Grado/Reto de pre
 
 ## Primer paso de la próxima sesión
 
-Domingo 30, misma estructura: repasos (no hay vencidos; el tramo va a la cola del Reto, abrir P6a por trigonometría) + 30 min de caligrafía. Anotar en la nota de inducción, en «Qué falla sin ellas», la conexión con la vacuidad de la implicación.
+Domingo 30: descanso planificado, sin sesión. El lunes 31, ejecutar primero el auditor y comenzar el bloque activo del [[01 Grado/Reto de preparación|Reto de preparación]] con 60 minutos de radianes y circunferencia unidad. Si sigue pendiente, conservar para el cierre la conexión entre inducción y vacuidad de la implicación.

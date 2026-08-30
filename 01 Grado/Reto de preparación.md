@@ -1,116 +1,78 @@
 ---
 tipo: reto
 curso: 2026-2027
+estado: en_curso
+fase_actual: pretemporada
+bloque_activo: trigonometria
 inicio: 2026-08-24
-fin: 2026-10-12
-dedicacion_min: 30
+fin: 2026-10-11
+inicio_grado: 2026-10-12
+dedicacion_trigonometria_min: 540
+actualizado: 2026-08-30
 ---
 
 # Reto de preparación
 
-Media hora diaria desde el **lunes 24 de agosto** hasta el **lunes 12 de octubre**, víspera de la apertura del curso: **siete semanas exactas, unas 24 horas**.
+La pretemporada comenzó el **24 de agosto**. Los bloques iniciales de lenguaje matemático y números reales ya están cerrados; desde el **31 de agosto** el trabajo sigue un calendario de seis semanas completas. Termina el **domingo 11 de octubre** y el grado comienza oficialmente el **lunes 12 de octubre de 2026**.
 
-> [!abstract] Esto es una pretemporada
-> El objetivo es llegar al 13 de octubre con el hábito instalado y las carencias detectadas, no con el temario cubierto. La [[08 Recursos/Guia de nivelacion Matematicas.pdf|guía de nivelación]] de la VIU lo dice igual: «no se trata de estudiarlo todo de nuevo, sino de llegar al primer día de clase sabiendo qué dominas y qué conviene reforzar».
+> [!abstract] Estado actual — 30 de agosto de 2026
+> **Fase:** pretemporada. **Hoy:** descanso planificado; no se abre sesión de estudio. **Bloque activo preparado:** trigonometría, del 31-08 al 06-09, con 9 horas netas. **Siguiente sesión:** lunes 31, 60 minutos de radianes y circunferencia unidad. La transición al grado ocurre el 12-10.
 
-## Paso cero, antes del lunes
+## Calendario canónico
 
-> [!note] Decisión (2026-08-24)
-> Autoevaluación pospuesta a después de la pretemporada. Se parte de cero: la cola se trabaja completa y en orden, P1 → P8. El criterio de salida de cada bloque (diez problemas seguidos sin fallo conceptual) hace de autoevaluación sobre la marcha.
+Este calendario sustituye la antigua cola P1 → P8. El bloque lo determina la fecha; una laguna concreta se anota para la consolidación o el repaso, pero no desplaza silenciosamente todo el calendario.
 
-**Haz la autoevaluación inicial** de la guía de nivelación (20 apartados, página 53). Papel y lápiz, sin calculadora, sin buscar soluciones — no las trae a propósito. No busques nota: lo que sales a buscar es la **lista de lo que no dominas**.
+| Fase | Fechas | Bloque | Objetivo de cierre | Estado al 30-08 |
+|---|---|---|---|---|
+| Preparación | 24-08 → 29-08 | Lenguaje matemático, números reales y desigualdades | Establecer la base de demostración y cálculo que usa el resto del plan | Cerrado como baseline |
+| Descanso | 30-08 | Descanso planificado | Llegar descansado al bloque intensivo; sin sesión ni nota diaria | Hoy |
+| Semana 1 | 31-08 → 06-09 | **Trigonometría · 9 h** | Radianes, circunferencia unidad, razones y gráficas; identidades y ecuaciones; práctica global | **Bloque activo preparado** |
+| Semana 2 | 07-09 → 13-09 | **Geometría analítica, vectores y matrices** | Coordenadas, vectores, producto escalar, rectas y planos; matrices, sistemas y Gauss | Programado |
+| Semana 3 | 14-09 → 20-09 | **Funciones, límites y continuidad** | Dominio e imagen, composición e inversa; límites laterales y continuidad | Programado |
+| Semana 4 | 21-09 → 27-09 | **Derivadas e integrales** | Reglas y cadena, interpretación y extremos; primitivas, integral definida y sustitución | Programado |
+| Semana 5 | 28-09 → 04-10 | **Sucesiones, series, combinatoria y probabilidad** | Convergencia básica, monotonía y acotación, serie geométrica; recuento y probabilidad elemental | Programado |
+| Semana 6 | 05-10 → 11-10 | **Consolidación general y transición al grado** | Práctica mixta, localizar huecos y dejar preparada la primera semana del curso | Programado |
+| Grado | 12-10 | **Inicio oficial** | Cerrar la pretemporada y pasar al [[01 Grado/Curso 2026-2027\|Curso 2026-2027]] | Programado |
 
-De sus 20 apartados, los tuyos son del 1 al 16 y el 20. Los apartados 17, 18 y 19 son de combinatoria, probabilidad y estadística: no van con tus cinco asignaturas, sáltalos.
+## Bloque activo · Trigonometría · 9 horas
 
-Esa lista decide qué bloques de abajo trabajas de verdad. **No hay que hacerlos todos**: el que ya domines, lo saltas.
+Material principal: **Pearson, _Geometría y trigonometría_**, caps. 2 y 11-16; el cap. 17 queda como puente opcional a complejos si el cierre sale fluido. Los repasos vencidos del panel [[07 Revisiones/Repasos.base|Repasos]] conservan prioridad y no cuentan dentro de estas 9 horas.
 
-## El orden lo marca la guía
+| Día | Tiempo | Trabajo | Evidencia al cerrar |
+|---|---:|---|---|
+| Lun 31-08 | 60 min | Radianes y circunferencia unidad | Convertir grados ↔ radianes y situar ángulos notables sin tabla |
+| Mar 01-09 | 60 min | Seno, coseno y tangente | Definir las razones, justificar signos y reducir al primer cuadrante |
+| Mié 02-09 | 60 min | Gráficas trigonométricas | Dibujar y leer amplitud, periodo y desfase |
+| Jue 03-09 | 60 min | Identidades fundamentales y de suma/diferencia | Demostrar y aplicar identidades transformando un solo miembro |
+| Vie 04-09 | 60 min | Ángulo doble y mitad; ecuaciones | Deducir fórmulas y escribir soluciones generales con $k\in\mathbb{Z}$ |
+| Sáb 05-09 | 120 min | Ecuaciones y resolución de triángulos | Resolver casos que exijan identidad previa y usar las leyes de senos y cosenos |
+| Dom 06-09 | 120 min | Práctica global y cierre | Completar una tanda mixta y registrar los huecos concretos que deban volver en consolidación |
 
-La guía prioriza, cuando el tiempo es limitado, sus temas **1, 2, 3, 5, 6 y 7** — los que se repiten en varias asignaturas. Y sobre las dos asignaturas donde más se nota el salto, avisa expresamente:
+Formato: recordatorio breve, mayoría del tiempo a papel y lápiz, corrección inmediata. Marca una sesión como hecha solo cuando exista evidencia en el [[09 Diario/Diario de estudio|Diario de estudio]].
 
-> [!info] Aviso de la guía de nivelación
-> «Análisis I es, junto con Álgebra I, la asignatura donde más se nota el salto al grado. Si solo dispones de tiempo limitado, prioriza el **tema 1 (demostraciones)** y el **tema 2 (números reales y valor absoluto)**: son los que más diferencian el enfoque universitario del de Bachillerato.»
+## Cómo continuar cualquier sesión
 
-Así que P1 y P2 no se negocian. Del resto, manda tu autoevaluación.
+1. Ejecutar el auditor del vault y atender primero cualquier repaso vencido o clase pendiente.
+2. Leer la fecha en el calendario anterior y el «Primer paso de la próxima sesión» de la entrada más reciente del [[09 Diario/Diario de estudio|Diario de estudio]].
+3. Reanudar el primer punto pendiente del bloque vigente. Si todavía no hay evidencia de esa semana, empezar por el primer objetivo enumerado.
+4. Cerrar con evidencia breve, la duda principal y un único primer paso para la siguiente sesión. No modificar `confianza`, `nivel_revision` ni estados de dominio sin recuperación personal.
+5. En la revisión semanal, registrar qué objetivo quedó cubierto y qué hueco pasa a consolidación. Después, actualizar `bloque_activo` en esta nota para la semana que empieza.
 
-## Cómo se usa
+## Material por bloque
 
-- Cada sesión: 30 minutos, un bloque a la vez. Si un bloque es corto, cabe con el siguiente.
-- Es una **cola, no un calendario**: avanzas cuando cumples el objetivo.
-- **Criterio de salida**: diez problemas seguidos sin fallo conceptual y pasas. No agotes ningún capítulo.
-- Si algo te atasca **tres sesiones seguidas**, salta al siguiente bloque y tráeme el problema concreto.
-- Registra la sesión en [[09 Diario/Diario de estudio|Diario de estudio]], dos minutos al cerrar.
-- La guía insiste, y tiene razón: «una hora de práctica real rinde mucho más que varias horas de lectura pasiva». Papel y lápiz, e intentar antes de mirar.
+- **Trigonometría:** Pearson, caps. 2 y 11-16.
+- **Geometría analítica, vectores y matrices:** Asapchi, TEMA I; [[08 Recursos/Fundamentos de Álgebra.pdf|Fundamentos de Álgebra]], UA4; Proskuriakov para práctica selectiva.
+- **Funciones, límites, continuidad, derivadas e integrales:** Asapchi, TEMAS II-VI y XIII; [[08 Recursos/Fundamentos de Cálculo.pdf|Fundamentos de Cálculo]], UA1 y UA2; Demidovich para práctica.
+- **Sucesiones, series, combinatoria y probabilidad:** guía de nivelación; Demidovich, cap. I §2 y cap. V; [[08 Recursos/Fundamentos de Álgebra.pdf|Fundamentos de Álgebra]], UA2 como apoyo de recuento.
+- **Consolidación:** problemas y notas producidos durante las semanas anteriores; la autoevaluación de la guía sirve como comprobación final, no como un bloque nuevo.
 
-## Fines de semana: una hora, dos mitades
+El mapa bibliográfico completo y el nivel de cada fuente están en [[08 Recursos/Recursos|Recursos]].
 
-> [!note] Decisión (2026-08-29)
-> Sábado y domingo la sesión pasa de 30 a **60 minutos**, partidos en dos mitades fijas. Durante el curso se mantiene la estructura a **dos horas** (una por mitad).
+## Contexto anterior que se conserva
 
-1. **30 min de repasos**: la cola de [[07 Revisiones/Repasos.base|Repasos]], lo más vencido primero. Si la cola se agota antes, el resto del tramo va a la cola de abajo.
-2. **30 min de caligrafía**: ejercicios que *deberían* ser triviales, repetidos hasta que salgan sin pensar. Es destreza pura, no comprensión: sin teoría, sin nota nueva, con corrección inmediata. Catálogo: descomposición factorial (binomios, trinomios, factor común, diferencia de cuadrados), operaciones con fracciones algebraicas, exponenciales y logaritmos, identidades trigonométricas y teoremas del seno y del coseno, límites por L'Hôpital, derivadas encadenadas. **Solo entran técnicas ya repasadas en la cola**: L'Hôpital y derivadas se incorporan cuando P6a las haya tocado, no antes. Fuente principal: Baldor, _Álgebra_, más el capítulo de ejercicios del bloque en curso.
+- **P1 · Lenguaje matemático y demostraciones:** cerrado como baseline el 25-08 con [[03 Conceptos/Implicación lógica|Implicación lógica]], [[04 Teoremas y demostraciones/Principio de inducción matemática|Principio de inducción matemática]] y [[05 Problemas/ALG1 - T00 - P02 - Suma de los primeros n naturales|P02]].
+- **P2 · Números reales, valor absoluto y desigualdades:** cerrado el 27-08 con [[03 Conceptos/Valor absoluto|Valor absoluto]], [[05 Problemas/ANA1 - T00 - P01 - Acotar x²-4 con módulo|P01]], AM-GM y Bernoulli.
+- Las referencias históricas a **P4, P5, P6a/P6b y P7** equivalen, respectivamente, a trigonometría; geometría/vectores/matrices; funciones/límites/continuidad y derivadas; e integrales/sucesiones/series. **P8 · MATLAB** queda para el curso y [[01 Grado/Trabajo paralelo|Trabajo paralelo]], no para estas seis semanas.
 
-## La cola
-
-> [!note] Decisión (2026-08-25)
-> Cola reordenada tras dos días de datos. Lógica: baseline conseguido (negar con cuantificadores, contrarrecíproco, inducción escrita con rigor); no consume más sesiones propias y se sigue entrenando dentro de los otros bloques. La prioridad pasa al cálculo: cinco años sin límites ni derivadas, integrales desde el instituto. **Las sesiones son para hacer**; la lectura (Hammack caps. 4, 5, 6, 9 y 10) va por la noche y no computa. P3 queda fuera y P4 se disuelve en P6a.
-
-Orden y peso orientativo para las 48 sesiones que quedan hasta el 12 de octubre. Cada sesión de cálculo: unos 10 minutos de recordatorio guiado de la técnica del día y 20 de ejercicios cortos con corrección inmediata.
-
-- [x] **P1 · Lenguaje matemático, conjuntos y demostraciones** — tema 1 de la guía (p. 11). Cerrado como baseline el 2026-08-25: [[03 Conceptos/Implicación lógica|Implicación lógica]], [[04 Teoremas y demostraciones/Principio de inducción matemática|Principio de inducción matemática]], [[05 Problemas/ALG1 - T00 - P02 - Suma de los primeros n naturales|P02]]. Lectura nocturna: **Hammack, _Book of Proof_, caps. 4, 5, 6, 9 y 10** (el 3 es combinatoria: fuera). Conjuntos y aplicaciones (**Fundamentos de Álgebra, UA1**, pp. 7-24) se cubren cuando aparezcan en P5 y P6b. Apoyo: Sominski, §1-4.
-- [x] **P2 · Números reales, valor absoluto y desigualdades** — 1 semana. Tema 2 de la guía (p. 15). Material: Asapchi, TEMA II (intervalos, valor absoluto, entornos) · Korovkin, _Desigualdades_, cap. I §2-4 (pp. 12-25). Cerrado el 2026-08-27: [[03 Conceptos/Valor absoluto|Valor absoluto]], [[05 Problemas/ANA1 - T00 - P01 - Acotar x²-4 con módulo|P01]], AM-GM y Bernoulli vía Korovkin.
-  *Objetivo*: manejar el valor absoluto **como distancia**, resolver inecuaciones con módulo y acotar con las desigualdades de la media y de Bernoulli. No es lógica: es la base del ε-δ de P6b y de Análisis I desde la primera clase.
-- [ ] **P4 · Trigonometría, semana intensiva** — del domingo 30-08 al domingo 06-09, unas 5 horas. Tema 4 de la guía. Material: **Pearson, _Geometría y trigonometría_**, caps. 2, 11-16 (y 17 si sobra). Los caps. 1, 3-10 (geometría plana y del espacio) quedan fuera.
-  *Objetivo*: círculo unidad, ángulos notables y reducción de cuadrante sin calculadora; gráficas de $A\sin(Bx+C)$ a mano; identidades básicas, suma, doble y mitad **demostradas y usadas**; ecuaciones trigonométricas con solución general; leyes de senos y cosenos. Es lo que P6a da por sabido para $\lim_{x\to 0}\frac{\sin x}{x}$ y para derivar $\sin$, $\cos$ y $\tan$.
-
-  > [!note] Decisión (2026-08-29)
-  > Sale del "a demanda" dentro de P6a y se hace entera y de golpe: Álex dominaba la trigonometría y ha olvidado las identidades; recuperarla en bloque es más barato que a trozos. Los repasos vencidos siguen mandando; la caligrafía del fin de semana es también trigonométrica esta semana.
-
-  | Día | Min | Capítulos | Sale de la sesión sabiendo |
-  |---|---|---|---|
-  | Dom 30 | 60 | 2 (radianes, sistema cíclico) · 11 · 12 | Convertir grados↔radianes; definir las seis razones en el plano; signos por cuadrante; reducir cualquier ángulo al primer cuadrante; tabla de 0°, 30°, 45°, 60°, 90° deducida de los triángulos, no memorizada |
-  | Lun 31 | 30 | 13 | Dibujar $\sin$, $\cos$, $\tan$ y leer amplitud, periodo y desfase de $y = A\sin(Bx + C)$; dominio y rango de $\sin^{-1}$, $\cos^{-1}$, $\tan^{-1}$ |
-  | Mar 1 | 30 | 14 §1: identidades básicas | *Antes, 5 min: repaso de Valor absoluto (vence hoy).* Pitagóricas, cociente y recíprocas; demostrar identidades transformando un solo miembro |
-  | Mié 2 | 30 | 14 §2: suma y diferencia | $\sin(\alpha \pm \beta)$, $\cos(\alpha \pm \beta)$, $\tan(\alpha \pm \beta)$ demostradas y aplicadas a ángulos no notables (75°, 15°) |
-  | Jue 3 | 30 | 14 §3: doble, mitad, producto↔suma | Deducir las de ángulo doble y mitad desde las de suma; las de producto a suma solo saber que existen y dónde están |
-  | Vie 4 | 30 | 14 §4: ecuaciones | Solución general con $k\in\mathbb{Z}$ y soluciones en $[0, 2\pi)$; ecuaciones que exigen una identidad previa |
-  | Sáb 5 | 60 | 15 · 16 | *30 min repasos: Implicación e Inducción (vencen hoy).* Resolver triángulos rectángulos y oblicuángulos: ley de senos (con el caso ambiguo) y ley de cosenos |
-  | Dom 6 | 60 | 16 (cierre) · 17 · tanda final | Ley de tangentes si cabe; forma polar de complejos y de Moivre como puente a Álgebra I. **Criterio de salida**: tanda mixta de 15 ejercicios de toda la semana, 10 seguidos sin fallo conceptual |
-
-  Formato de cada sesión, el de siempre: un tercio de recordatorio guiado y dos tercios de ejercicios del capítulo con corrección inmediata. Si un día se atasca, no se estira: se anota y se sigue, y el domingo 6 se recoge.
-- [ ] **P6a · Límites y derivadas, destreza** — 2 semanas. Tema 6 de la guía (p. 31). Material: Asapchi, TEMAS III, IV y V · **Fundamentos de Cálculo, UA1.2 y UA1.3** (pp. 14-30). Lo de P4 que no es trigonometría (dominio, asíntotas, funciones elementales sin tabla de valores; Asapchi TEMA II, **Fundamentos de Cálculo, UA1.1**) entra aquí a demanda, cuando un límite o una derivada lo pida; la trigonometría llega hecha de la semana intensiva.
-  *Objetivo*: volumen. 10-15 ejercicios cortos por sesión con corrección inmediata, subiendo dificultad al encadenar. Automatizar límites y derivadas.
-- [ ] **P6b · ε-δ y teoremas de continuidad y derivación** — 1 semana. Mismo material, UA1.2 y UA1.3.
-  *Objetivo*: probar un límite con ε-δ, enunciar con precisión continuidad en un punto, Bolzano y valor medio. Aquí vuelve la demostración cuidada, sobre objetos de cálculo.
-- [ ] **P7 · Integral, sucesiones y series** — 1,5 semanas. Tema 7 de la guía (p. 35). Material: Asapchi, TEMA XIII (integración indefinida) · **Fundamentos de Cálculo, UA2** (pp. 43-60) · Demidovich, cap. I §2 (sucesiones, p. 19).
-  *Objetivo*: empieza en cero. Inmediatas → sustitución → partes. Sucesiones: solo intuición de convergencia (acotada, monótona, geométrica). Su alcance en Análisis I sigue provisional hasta la primera clase.
-- [ ] **P5 · Vectores, geometría analítica y matrices** — 1 semana. Tema 5 de la guía (p. 27). Material: Asapchi, TEMA I (coordenadas, recta, distancias) · **Fundamentos de Álgebra, UA4** (pp. 55-80): sistemas de ecuaciones lineales, matrices y discusión de sistemas · Proskuriakov, §1 determinantes de 2.º y 3.er orden (pp. 9-14), para practicar.
-  *Objetivo*: producto escalar, ortogonalidad, resolver sistemas por Gauss e interpretar la solución geométricamente. Transversal a **Álgebra I, Geometría I y Análisis II**: lo único de álgebra que no se negocia.
-- [ ] **P8 · MATLAB** — última media semana. Tema 9 de la guía (p. 43). Material: **MATLAB Onramp**, tutorial gratuito de MathWorks · **Fundamentos de Cálculo, UA1.4** (cálculo simbólico, p. 31) y **UA1.5** (programación de funciones, p. 37) · **Fundamentos de Álgebra**, apéndice de MATLAB para álgebra lineal (p. 103).
-  *Objetivo*: moverte por el entorno sin fricción y haber escrito ya una función propia.
-
-**Fuera de la cola**: **P3** (álgebra elemental, complejos, $\mathbb{Z}_n$): fundamentos previos declarados, y Álgebra I lo da en el curso; lo mecánico del álgebra elemental se entrena en la caligrafía de los fines de semana. **P4** vuelve a la cola como semana intensiva de trigonometría (decisión del 2026-08-29); su parte de funciones elementales sigue dentro de P6a a demanda.
-
-> [!tip] Si vas justo de tiempo
-> P2 y P6a completos, P7 hasta sustitución, P5 a medias y P8 la última semana. Lo que no llegue de P6b y P7 lo da Análisis I en octubre; lo que no llegue de P2 y P6a, no.
-
-## Las dos guías de Fundamentos
-
-Las [[08 Recursos/Fundamentos de Álgebra.pdf|Fundamentos de Álgebra]] y [[08 Recursos/Fundamentos de Cálculo.pdf|Fundamentos de Cálculo]] entran en casi todos los bloques y son la mejor fuente de esta pretemporada por tres razones: están en castellano, las escriben profesores de la VIU —su notación es la más parecida a la que verás en clase— y su nivel es de formación básica, que es justo lo que pide una pretemporada.
-
-Lo que no son: libros de problemas, ni material con el nivel de demostración que exigen Álgebra I y Análisis I. Reparto: **la guía da el lenguaje y los ejemplos; el problemario, las horas de mano**.
-
-## Criterio unificado de preparación
-
-La guía de nivelación fija este uso de los materiales:
-
-- **El TEMA I del Asapchi (la recta) forma parte de la preparación P5**, porque el bloque de vectores, geometría analítica y matrices es transversal a Álgebra I, Geometría I y Análisis II.
-- **El TEMA XIII del Asapchi (integración) forma parte de la preparación P7.** Series e integral de Riemann son preparación prudente para Análisis I, pero no programa confirmado mientras la guía docente termine en derivadas. Ver [[02 Asignaturas/1C - Análisis I/Análisis I|Análisis I]].
-- Las integrales no son el bloque principal de la pretemporada: se trabajan después de P1, P2 y los huecos que revele la autoevaluación.
-- **Cálculo Numérico no necesita bloque propio en la pretemporada, y no por falta de material.** Fundamentos de Cálculo cubre en sus UA3 y UA4 el programa de la asignatura casi completo —bisección, regula falsi, secante, Newton-Raphson, interpolación, Lagrange, mínimos cuadrados, trapecio, Simpson, Romberg— y en UA1.4 y UA1.5 el cálculo simbólico y la programación. Eso es materia del curso, no conocimiento previo: queda recogido en [[01 Grado/Trabajo paralelo|Trabajo paralelo]]. De la pretemporada solo le corresponde P8, el entorno.
-
-## Fuera de la pretemporada
-
-- Temas **8** de la guía (combinatoria, probabilidad y estadística) y las asignaturas de Topología, Probabilidad, Estadística y Programación: no están en tu matrícula.
-- Del Asapchi, los **TEMAS VII a XII** (lugar geométrico y cónicas): son geometría analítica clásica y Geometría I va de geometría afín y euclídea.
-- Los libros MIR grandes —Proskuriakov, Demidovich, Faddeev— son la práctica del curso, no de la pretemporada. Su mapa completo está en [[01 Grado/Trabajo paralelo|Trabajo paralelo]]. Aquí solo asoman en P3 y P5, y en dosis pequeñas.
+> [!warning] Alcance
+> El objetivo es recuperar fluidez y detectar huecos antes del grado, no adelantar Análisis I ni agotar los libros. Las series y la integral de Riemann siguen siendo preparación provisional hasta confirmar su alcance con el profesorado.
