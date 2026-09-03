@@ -19,6 +19,14 @@ asignatura:
   - ANA1
 ```
 
+## Carpetas temáticas
+
+- Dentro de `03 Conceptos` y `04 Teoremas y demostraciones`, guarda cada nota en una subcarpeta de un nivel cuyo nombre coincida exactamente con su propiedad `tema`.
+- Reutiliza el nombre de un tema existente antes de crear una variante o sinónimo.
+- Crea la subcarpeta al guardar la primera nota del tema; no mantengas carpetas temáticas vacías.
+- Conserva los índices y los archivos `.base` en la raíz de su carpeta de tipo.
+- Las vistas **Por tema** de los paneles son la vía principal para repasar un bloque completo.
+
 ## Estados
 
 Conceptos y teoremas:

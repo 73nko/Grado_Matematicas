@@ -55,7 +55,7 @@ Un paso inductivo correcto sin caso base no demuestra que ningún caso sea verda
 
 ## Consecuencias y conexiones
 
-- Usa [[03 Conceptos/Implicación lógica|Implicación lógica]] en el paso inductivo.
+- Usa [[Implicación lógica|Implicación lógica]] en el paso inductivo.
 - Es una técnica transversal para identidades, desigualdades y propiedades definidas sobre los naturales.
 
 ## Fuente y validación

@@ -1,7 +1,7 @@
 filters:
   and:
     - not:
-        - 'file.inFolder("90 Plantillas")'
+        - file.inFolder("90 Plantillas")
     - or:
         - tipo == "concepto"
         - tipo == "teorema"

@@ -16,8 +16,8 @@ Sesión piloto de preparación para probar el recorrido completo del vault. No a
 
 ## Definiciones y resultados
 
-- [[03 Conceptos/Implicación lógica|Implicación lógica]]
-- [[04 Teoremas y demostraciones/Principio de inducción matemática|Principio de inducción matemática]]
+- [[Implicación lógica|Implicación lógica]]
+- [[Principio de inducción matemática|Principio de inducción matemática]]
 
 ## Ejemplos
 
@@ -34,8 +34,8 @@ No aplica: es una sesión piloto de preparación.
 
 ## Notas atómicas por crear
 
-- [x] Concepto: [[03 Conceptos/Implicación lógica|Implicación lógica]]
-- [x] Teorema: [[04 Teoremas y demostraciones/Principio de inducción matemática|Principio de inducción matemática]]
+- [x] Concepto: [[Implicación lógica|Implicación lógica]]
+- [x] Teorema: [[Principio de inducción matemática|Principio de inducción matemática]]
 - [x] Problema: [[05 Problemas/ALG1 - T00 - P01 - Negar una implicación|Negar una implicación]]
 
 ## Recuperación al cerrar

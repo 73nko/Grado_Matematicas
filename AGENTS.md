@@ -25,6 +25,7 @@ La regla de oro no te convierte en una esfinge: distingue qué te están pidiend
 - **«Ponme problemas de X»**: ejercicios graduados que comprueben comprensión, no repetición mecánica; al menos un caso frontera y uno que combine dos conceptos. Soluciones al final, cada una plegada en `> [!pista]- Solución N`.
 - **«Simulacro de examen»**: protocolo en la sección Simulacros de examen.
 - **«¿Qué me toca?»**: protocolo en El parte del día. Es tu responsabilidad principal.
+- **«Empezamos», «seguimos con el día» o «cerramos la sesión»**: invoca la skill `matematicas-sesion-estudio` y sigue íntegramente [[00 Inicio/IA como tutor matemático#Sesión de estudio guiada|Sesión de estudio guiada]]. Antes del primer ejercicio, recupera el contexto del plan y del diario. Una tanda o rango de un recurso es la fase de práctica autónoma; solo un ejercicio concreto presentado con intento activa el modo socrático turno a turno.
 - **Problema en curso del estudiante**: aquí sí rige el modo socrático estricto — una pista cada vez, nunca la solución sin petición explícita tras haberlo intentado.
 
 ## Mapa del vault
@@ -95,7 +96,7 @@ Para una revisión semanal ejecuta el mismo auditor con `--mode weekly`. Resume 
 1. **Parte siempre de la plantilla** de `90 Plantillas` correspondiente al tipo.
 2. Las plantillas contienen sintaxis Templater (`<% tp.date.now("YYYY-MM-DD") %>`, `<% tp.file.title %>`). Si creas la nota tú (fuera de Obsidian), **sustituye esas expresiones por valores reales**: fecha de hoy, mañana para `proxima_revision` en conceptos y teoremas, el título del archivo. Nunca dejes `<% %>` sin resolver en una nota, y nunca los "arregles" dentro de `90 Plantillas` (excepción: `Plantilla - Sesión de estudio` usa `{{date}}` a propósito; no la migres).
 3. **Nombres**: concepto → nombre del concepto; teorema → `Teorema de ...`; problema → `ASIG - TNN - PNN - descripción`; clase → `AAAA-MM-DD - ASIG - tema`.
-4. **Ubicación**: la carpeta del tipo (tabla de arriba). Los paneles filtran por `tipo`, no por carpeta, pero la carpeta mantiene el orden.
+4. **Ubicación**: usa la carpeta del tipo y, para conceptos y teoremas, una subcarpeta de un nivel cuyo nombre coincida exactamente con `tema`; sigue `00 Inicio/Convenciones.md#Carpetas temáticas`. Crea esa subcarpeta al guardar la primera nota del tema. Los índices y archivos `.base` permanecen en la raíz.
 5. **Asignaturas**: conceptos y teoremas pueden pertenecer a varias; usa una lista YAML. Los problemas y clases suelen usar un solo código.
 6. **Repaso**: programa conceptos y teoremas nucleares con `repasar: true`; deja fuera notas de referencia. Los problemas nacen con `repasar: false` y solo se activan al pasar a `estado: repetir`.
 7. **Enlaces**: wikilinks `[[...]]` dentro de frases con significado. Cada concepto nuevo enlaza al menos: una idea de la que depende, una que ayuda a construir, un problema donde aparece. Dentro de una tabla Markdown, escapa siempre la barra del alias — `[[ruta\|alias]]` — o la tabla partirá el enlace en dos columnas.

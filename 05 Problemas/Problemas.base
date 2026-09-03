@@ -2,7 +2,7 @@ filters:
   and:
     - tipo == "problema"
     - not:
-        - 'file.inFolder("90 Plantillas")'
+        - file.inFolder("90 Plantillas")
 properties:
   file.name:
     displayName: Problema

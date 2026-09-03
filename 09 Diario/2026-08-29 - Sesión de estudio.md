@@ -18,7 +18,7 @@ Primera sesión de fin de semana con el formato nuevo del [[01 Grado/Reto de pre
 
 ## Trabajo realizado
 
-- Repasos: [[03 Conceptos/Valor absoluto|Valor absoluto]] (4 preguntas, incluida la demostración de la desigualdad triangular desde $-|x| \leq x \leq |x|$ y la condición exacta para elevar al cuadrado), [[03 Conceptos/Implicación lógica|Implicación lógica]] (3 preguntas) y [[04 Teoremas y demostraciones/Principio de inducción matemática|Principio de inducción]] (enunciado preciso y contraejemplo sin caso base: $P(n): n < 0$, paso inductivo verdadero por vacuidad).
+- Repasos: [[Valor absoluto|Valor absoluto]] (4 preguntas, incluida la demostración de la desigualdad triangular desde $-|x| \leq x \leq |x|$ y la condición exacta para elevar al cuadrado), [[Implicación lógica|Implicación lógica]] (3 preguntas) y [[Principio de inducción matemática|Principio de inducción]] (enunciado preciso y contraejemplo sin caso base: $P(n): n < 0$, paso inductivo verdadero por vacuidad).
 - Caligrafía: Baldor, descomposición factorial completa (factor común, diferencia de cuadrados, trinomio cuadrado perfecto, trinomios $x^2+bx+c$ y $ax^2+bx+c$, suma y diferencia de cubos). Fluido.
 
 ## Evidencia

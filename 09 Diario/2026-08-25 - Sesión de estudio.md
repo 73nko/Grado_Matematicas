@@ -14,7 +14,7 @@ tags:
 
 ## Resultado que quiero producir
 
-Cerrar los dos repasos vencidos ([[03 Conceptos/Implicación lógica|Implicación lógica]] y [[04 Teoremas y demostraciones/Principio de inducción matemática|Principio de inducción matemática]]) recuperando sin mirar, y dejar la lógica en un punto que permita pasar a cálculo.
+Cerrar los dos repasos vencidos ([[Implicación lógica|Implicación lógica]] y [[Principio de inducción matemática|Principio de inducción matemática]]) recuperando sin mirar, y dejar la lógica en un punto que permita pasar a cálculo.
 
 ## Trabajo realizado
 

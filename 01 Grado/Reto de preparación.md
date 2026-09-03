@@ -70,8 +70,8 @@ El mapa bibliográfico completo y el nivel de cada fuente están en [[08 Recurso
 
 ## Contexto anterior que se conserva
 
-- **P1 · Lenguaje matemático y demostraciones:** cerrado como baseline el 25-08 con [[03 Conceptos/Implicación lógica|Implicación lógica]], [[04 Teoremas y demostraciones/Principio de inducción matemática|Principio de inducción matemática]] y [[05 Problemas/ALG1 - T00 - P02 - Suma de los primeros n naturales|P02]].
-- **P2 · Números reales, valor absoluto y desigualdades:** cerrado el 27-08 con [[03 Conceptos/Valor absoluto|Valor absoluto]], [[05 Problemas/ANA1 - T00 - P01 - Acotar x²-4 con módulo|P01]], AM-GM y Bernoulli.
+- **P1 · Lenguaje matemático y demostraciones:** cerrado como baseline el 25-08 con [[Implicación lógica|Implicación lógica]], [[Principio de inducción matemática|Principio de inducción matemática]] y [[05 Problemas/ALG1 - T00 - P02 - Suma de los primeros n naturales|P02]].
+- **P2 · Números reales, valor absoluto y desigualdades:** cerrado el 27-08 con [[Valor absoluto|Valor absoluto]], [[05 Problemas/ANA1 - T00 - P01 - Acotar x²-4 con módulo|P01]], AM-GM y Bernoulli.
 - Las referencias históricas a **P4, P5, P6a/P6b y P7** equivalen, respectivamente, a trigonometría; geometría/vectores/matrices; funciones/límites/continuidad y derivadas; e integrales/sucesiones/series. **P8 · MATLAB** queda para el curso y [[01 Grado/Trabajo paralelo|Trabajo paralelo]], no para estas seis semanas.
 
 > [!warning] Alcance

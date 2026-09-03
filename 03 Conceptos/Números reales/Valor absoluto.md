@@ -6,10 +6,10 @@ tema: Números reales
 estado: en_progreso
 confianza: rojo
 repasar: true
-nivel_revision: 1
-ultima_revision: 2026-08-29
+nivel_revision: 2
+ultima_revision: 2026-09-01
 fecha: 2026-08-26
-proxima_revision: 2026-09-01
+proxima_revision: 2026-09-08
 tags:
   - concepto
 ---

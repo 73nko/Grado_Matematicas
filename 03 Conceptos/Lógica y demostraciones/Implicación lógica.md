@@ -45,7 +45,7 @@ La recíproca no tiene por qué ser cierta: que un entero sea par no implica que
 
 - Depende de: proposiciones, negación y tablas de verdad.
 - Permite construir: demostraciones directas y por contrarrecíproco.
-- Aparece en: [[04 Teoremas y demostraciones/Principio de inducción matemática|Principio de inducción matemática]] y [[05 Problemas/ALG1 - T00 - P01 - Negar una implicación|Negar una implicación]].
+- Aparece en: [[Principio de inducción matemática|Principio de inducción matemática]] y [[05 Problemas/ALG1 - T00 - P01 - Negar una implicación|Negar una implicación]].
 
 ## Preguntas de recuperación
 

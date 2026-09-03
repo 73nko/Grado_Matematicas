@@ -24,6 +24,19 @@ properties:
     displayName: Última revisión
 views:
   - type: table
+    name: Por tema
+    groupBy:
+      property: tema
+      direction: ASC
+    order:
+      - file.name
+      - asignatura
+      - estado
+      - confianza
+      - nivel_revision
+      - ultima_revision
+      - proxima_revision
+  - type: table
     name: Por asignatura
     groupBy:
       property: asignatura

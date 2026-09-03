@@ -26,7 +26,7 @@ tags:
 ## Datos, hipótesis y objetivo
 
 - $S_n$ solo está disponible a través de la definición recursiva (1): no se asume ningún lema sobre sumatorios.
-- Herramienta: [[04 Teoremas y demostraciones/Principio de inducción matemática|Principio de inducción matemática]] con $n_0 = 1$.
+- Herramienta: [[Principio de inducción matemática|Principio de inducción matemática]] con $n_0 = 1$.
 - Objetivo: identificar $P(n)$ con precisión, verificar el caso base y deducir $P(n+1)$ de $P(n)$ usando únicamente (1) y la hipótesis inductiva.
 
 ## Primer intento

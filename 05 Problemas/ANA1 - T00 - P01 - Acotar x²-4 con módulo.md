@@ -24,7 +24,7 @@ tags:
 
 - Hipótesis: $|x - 2| < 1$, es decir, $x$ está en el entorno de centro $2$ y radio $1$.
 - Objetivo: acotar $|x^2 - 4|$ estrictamente por $5$.
-- Herramientas: multiplicatividad $|ab| = |a||b|$ y equivalencia de entorno $|u| < r \iff -r < u < r$, ambas en [[03 Conceptos/Valor absoluto|Valor absoluto]].
+- Herramientas: multiplicatividad $|ab| = |a||b|$ y equivalencia de entorno $|u| < r \iff -r < u < r$, ambas en [[Valor absoluto|Valor absoluto]].
 - Este es el gesto central de las demostraciones ε-δ (bloque P6b del [[01 Grado/Reto de preparación|Reto de preparación]]): controlar un factor con la hipótesis y acotar el otro con ella misma.
 
 ## Primer intento
